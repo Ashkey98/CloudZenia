@@ -401,8 +401,11 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 10.5em;
   font-weight: 600;
-  line-height: 163px;
+  line-height: 188px;
   color: #fff;
+  float: left;
+  margin-left: -20%;
+  padding-bottom: 150px;
 }
 
 #hero h2 {
