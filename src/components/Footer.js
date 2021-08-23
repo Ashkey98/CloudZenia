@@ -16,7 +16,7 @@ class Footer extends Component {
  <div className="row">
 
    <div className="col-lg-3 col-md-6 footer-contact">
-     <h3>Arsha</h3>
+     <h3>CloudZenia</h3>
      <p>
        A108 Adam Street <br/>
        New York, NY 535022<br/>
@@ -40,11 +40,15 @@ class Footer extends Component {
    <div className="col-lg-3 col-md-6 footer-links">
      <h4>Our Services</h4>
      <ul>
-       <li><i className="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-       <li><i className="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-       <li><i className="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-       <li><i className="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-       <li><i className="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+       <li><i className="bx bx-chevron-right"></i> <a href="#">Infrastructure as Code</a></li>
+       <li><i className="bx bx-chevron-right"></i> <a href="#">Devops as Service</a></li>
+       <li><i className="bx bx-chevron-right"></i> <a href="#">Automations</a></li>
+       <li><i className="bx bx-chevron-right"></i> <a href="#">Cloud Migrations</a></li>
+       <li><i className="bx bx-chevron-right"></i> <a href="#">Cloud Native Application Development</a></li>
+       <li><i className="bx bx-chevron-right"></i> <a href="#">Consultancy and  Cost Optimizations</a></li>
+       <li><i className="bx bx-chevron-right"></i> <a href="#">Data Science</a></li>
+
+
      </ul>
    </div>
 
@@ -66,7 +70,7 @@ class Footer extends Component {
 
       <div className="container footer-bottom clearfix">
       <div className="copyright">
-      &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>CloudZenia</span></strong>. All Rights Reserved
       </div>
       <div className="credits">
 

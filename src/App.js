@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home';
-import Header from './components/Header';
 import Hero from './components/Hero';
 import VideoRenderer from './components/VideoRenderer';
 import CloudLogos from './components/CloudLogos';
@@ -11,18 +10,22 @@ import Team from './components/Team'
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Reviews from './components/Reviews';
+import AboutUS from './components/AboutUS';
 
 function App() {
   return (
     <div>
-    <Header />
+    {/* <Header /> */}
     <Hero />
     <VideoRenderer />
     <CloudLogos />
+    <AboutUS />
     <Portfolio />
     <Services />
     <Team />
     <Blog />
+    <Reviews />
     <Contact />
   <Footer />
     </div>
