@@ -12,7 +12,8 @@ class Hero extends Component {
       
 <section id="hero" className="d-flex align-items-center">
 
-<div className="container">
+<div className="container" style={{    marginTop:" -206px"
+}} >
 
 <div className="container d-flex align-items-center">
 
@@ -26,10 +27,10 @@ class Hero extends Component {
          <ul>
 
            <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
-           <li><a className="nav-link scrollto active" href="#hero">About Us</a></li>
            <li><a className="nav-link scrollto" href="#services">Services</a></li>
            <li><a className="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
            <li><a className="nav-link scrollto" href="#team">Team</a></li>
+           <li><a className="nav-link scrollto" href="#team">About</a></li>
            
            
            <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
@@ -39,11 +40,14 @@ class Hero extends Component {
 
         </div>
 <div>
- <div className="col-lg-10 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-   <h1>Take Your Buisness To The Clouds</h1>
+  <div style={{display:"flex" , justifyContent:"space-evenly"}}>
+ <div className="col-lg-10 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"  >
+   <div className="Take-your" data-aos="fade-up" data-aos-delay="200"><h1>Take Your</h1></div>
+   <div className="buisness" data-aos="fade-up" data-aos-delay="150"><h2 style={{fontSize:"150px", color:"white" , marginLeft: "-482px"}}>Buisness</h2></div>
+   <div className="clouds" data-aos="fade-up" data-aos-delay="100"><h3 style={{fontSize:"56px" ,color:" white", marginLeft: "-466px"}}>To The Clouds</h3></div>
    
 </div>
-<div>
+<div style={{justifyContent:" flex-end"}}>
 <Canvas camera={{ position: [10, 6, 10], fov: 80 }}>
       <CameraControls />
 
@@ -52,6 +56,7 @@ class Hero extends Component {
         <House />
       </Suspense>
     </Canvas>
+    </div>
 </div>
 </div>
 </div>
