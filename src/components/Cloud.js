@@ -10,18 +10,19 @@ export function CloudLoading() {
   return (
     <mesh visible position={[0, 0, 0]} rotation={[0, 0, 0]}>
       <sphereGeometry attach="geometry" args={[1, 16, 16]} />
-      <meshStandardMaterial attach="material" color="white" transparent opacity={0.6} roughness={1} metalness={0} />
+      <meshStandardMaterial  attach="material" color="white" transparent opacity={0.6} roughness={1} metalness={0} />
     </mesh>
   )
 }
 
  function Cloud(props) {
+  const [ active ] = useState(true)
   const group = useRef()
   const { nodes, materials } = useLoader(GLTFLoader, 'untitled.glb')
   return (
     <group ref={group} {...props} dispose={null}>
       <group scale={0.01}>
-        <mesh geometry={nodes.snow1.geometry} material={materials.Material_0}>
+        <mesh scale={ active ? 2 : 5 } geometry={nodes.snow1.geometry} material={materials.Material_0}>
           <meshStandardMaterial attach="material" color="white" roughness={0.5} a ddLight={true} directIntesity={1.5} metalness={0.3} />
         </mesh>
       </group>
