@@ -43,13 +43,14 @@ class Hero extends Component {
 <div>
   <div style={{display:"flex" , justifyContent:"space-evenly"}}>
  <div className="col-lg-10 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"  >
-   <div className="Take-your" data-aos="fade-up" data-aos-delay="200"><h1>Take Your</h1></div>
-   <div className="buisness" data-aos="fade-up" data-aos-delay="150"><h2 style={{fontSize:"150px", color:"white" , marginLeft: "-482px"}}>Buisness</h2></div>
+   <div className="Take-your" data-aos="fade-up" data-aos-delay="200"><h1 style={{fontSize:"170px"}}>Take Your</h1></div>
+   <div className="buisness" data-aos="fade-up" data-aos-delay="150"><h2 style={{fontSize:"140px", color:"white" , marginLeft: "-482px"}}>Buisness</h2></div>
    <div className="clouds" data-aos="fade-up" data-aos-delay="100"><h3 style={{fontSize:"56px" ,color:" white", marginLeft: "-466px"}}>To The Clouds</h3></div>
    
 </div>
-<div style={{position: "relative",left: "990px"}}>
-<Canvas  camera={{ position: [10, 6, 10], fov: 80 }}  style={{width:"100vh",height:"100vw"}}>
+<div style={{position: "relative",left: "990px" ,width:"100%",height:"100%"}}>
+  <div>
+<Canvas  camera={{ position: [10, 6, 10], fov: 80 }}  >
       <CloudCameraControls />
 
       <ambientLight intensity={1} />
@@ -60,6 +61,8 @@ class Hero extends Component {
         <Cloud />
       </Suspense>
     </Canvas>
+    </div>
+    <div>
 <Canvas camera={{ position: [10, 6, 10], fov: 80 }}>
       <CameraControls />
 
@@ -68,7 +71,7 @@ class Hero extends Component {
         <House />
       </Suspense>
     </Canvas>
-
+    </div>
    
     </div>
 </div>
