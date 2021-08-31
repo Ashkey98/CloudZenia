@@ -13,7 +13,7 @@ class Hero extends Component {
       
 <section id="hero" className="d-flex align-items-center">
 
-<div className="container" style={{    marginTop:" -206px"
+<div className="container" style={{    marginTop:" 141px"
 }} >
 
 <div className="container d-flex align-items-center">
@@ -61,7 +61,7 @@ class Hero extends Component {
 <Canvas  camera={{ position: [10, 6, 10], fov: 80 }} className="cloud" style={{
         position: 'relative',
         width: '70vw',
-        height: '100%',
+        height: '55vh',
         overflow: 'hidden',
         top: '100px',    
   }}  height="300">
@@ -83,7 +83,7 @@ class Hero extends Component {
       height: '42vh',
       marginTop: '-160px',
       overflow: 'hidden',
-      bottom: '-300px',
+      bottom: '50px',
     }}>
       <CameraControls />
 

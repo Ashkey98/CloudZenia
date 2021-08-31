@@ -43,7 +43,7 @@ export const CloudCameraControls = () => {
   // Ref to the controls, so that we can update them on every frame using useFrame
   const controls = useRef()
   useFrame((state) => controls.current.update())
-  return <orbitControls ref={controls} args={[camera, domElement]} enableZoom={false} minAzimuthAngle={-Math.PI / 4} minPolarAngle={0} />
+  return <orbitControls ref={controls} args={[camera, domElement]} enableZoom={true} minAzimuthAngle={-Math.PI / 4} minPolarAngle={0} />
 }
 
 export default Cloud;
