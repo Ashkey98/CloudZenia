@@ -63,7 +63,7 @@ export const CameraControls = () => {
     <orbitControls
       ref={controls}
       args={[camera, domElement]}
-      autoRotate={true}
+      autoRotate={false}
       autoRotateSpeed={10}
       enableZoom={true}
       minAzimuthAngle={-Math.PI / 4}

@@ -1,8 +1,9 @@
 import React, {Component,Suspense} from 'react';
 import { Canvas } from '@react-three/fiber'
 import House from './House';
-import { Loading } from './House';
-import  { CameraControls } from './House';
+import { Loading, CameraControls } from './House';
+import Cloud  from './Cloud';
+import { CloudLoading, CloudCameraControls } from './Cloud'
 
 
 
@@ -47,7 +48,18 @@ class Hero extends Component {
    <div className="clouds" data-aos="fade-up" data-aos-delay="100"><h3 style={{fontSize:"56px" ,color:" white", marginLeft: "-466px"}}>To The Clouds</h3></div>
    
 </div>
-<div style={{justifyContent:" flex-end"}}>
+<div style={{position: "relative",left: "990px"}}>
+<Canvas  camera={{ position: [10, 6, 10], fov: 80 }}  style={{width:"100vh",height:"100vw"}}>
+      <CloudCameraControls />
+
+      <ambientLight intensity={1} />
+      <spotLight position={[52, 52, 0]} intensity={10} />
+      <spotLight position={[10, 8, -10]} intensity={50} />
+      <spotLight position={[10, 10, -5]} intensity={10} />
+      <Suspense fallback={CloudLoading}>
+        <Cloud />
+      </Suspense>
+    </Canvas>
 <Canvas camera={{ position: [10, 6, 10], fov: 80 }}>
       <CameraControls />
 
@@ -56,6 +68,8 @@ class Hero extends Component {
         <House />
       </Suspense>
     </Canvas>
+
+   
     </div>
 </div>
 </div>

@@ -11,8 +11,8 @@ class Blog extends Component {
 
   <div className = "card-wrapper">
   <div className="item-4">
-    <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" class="card">
-      <div class="thumb" style= {{backgroundImage :" url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png)" ,
+    <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" className="card">
+      <div className="thumb" style= {{backgroundImage :" url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png)" ,
       
       }}></div>
       <article>
@@ -24,9 +24,9 @@ class Blog extends Component {
   </div>
 
 
-  <div class="item-4">
-    <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" class="card">
-      <div class="thumb" style= {{backgroundImage :" url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png)" ,
+  <div className="item-4">
+    <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" className="card">
+      <div className="thumb" style= {{backgroundImage :" url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png)" ,
       
       }}></div>
       <article>
@@ -38,9 +38,9 @@ class Blog extends Component {
   </div>
 
 
-  <div class="item-4">
-    <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" class="card">
-      <div class="thumb" style= {{backgroundImage :" url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png)" ,
+  <div className="item-4">
+    <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" className="card">
+      <div className="thumb" style= {{backgroundImage :" url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png)" ,
       
       }}></div>
       <article>

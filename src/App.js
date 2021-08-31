@@ -1,6 +1,4 @@
 import React  from 'react';
-import './App.css';
-import Home from './components/Home';
 import Hero from './components/Hero';
 import VideoRenderer from './components/VideoRenderer';
 import CloudLogos from './components/CloudLogos';
