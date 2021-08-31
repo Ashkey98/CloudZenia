@@ -53,18 +53,18 @@ class Hero extends Component {
    
 </div>
 <div style={{position: "relative",left: "990px" ,width:"100%",height:"100%"}}>
-  <div style={{
+  {/* <div style={{
     position: 'relative',
     top: '144px',
     height: '30vh',
-  }}>
+  }}> */}
 <Canvas  camera={{ position: [10, 6, 10], fov: 80 }} className="cloud" style={{
         position: 'relative',
         width: '70vw',
-        height: '20vh',
+        height: '100%',
         overflow: 'hidden',
         top: '100px',    
-  }}   >
+  }}  height="300">
       <CloudCameraControls />
 
       <ambientLight intensity={1} />
@@ -75,7 +75,7 @@ class Hero extends Component {
         <Cloud />
       </Suspense>
     </Canvas>
-    </div>
+    {/* </div> */}
     <div>
 <Canvas camera={{ position: [10, 6, 10], fov: 80 }}  style={{
       position: 'relative',
