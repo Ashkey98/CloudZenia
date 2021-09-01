@@ -21,9 +21,9 @@ export function CloudLoading() {
   const { nodes, materials } = useLoader(GLTFLoader, 'untitled.glb')
   return (
     <group ref={group} {...props} dispose={null}>
-      <group scale={0.01}>
-        <mesh scale={ 100 } geometry={nodes.snow1.geometry} material={materials.Material_0}>
-          <meshStandardMaterial attach="material" color="white" roughness={0.5} a ddLight={true} directIntesity={1.5} metalness={0.3} />
+      <group scale={0.045} rotation={[0, 20, 0]}>
+        <mesh scale={ 11} geometry={nodes.snow1.geometry} material={materials.Material_0}>
+          <meshStandardMaterial attach="material" color="white" roughness={0.5} a ddLight={true}  metalness={0.3} />
         </mesh>
       </group>
     </group>
@@ -43,7 +43,7 @@ export const CloudCameraControls = () => {
   // Ref to the controls, so that we can update them on every frame using useFrame
   const controls = useRef()
   useFrame((state) => controls.current.update())
-  return <orbitControls ref={controls} args={[camera, domElement]} enableZoom={true} minAzimuthAngle={-Math.PI / 4} minPolarAngle={0} />
+  return <orbitControls ref={controls} args={[camera, domElement]} enableZoom={false} minAzimuthAngle={-Math.PI / 4} minPolarAngle={0} />
 }
 
 export default Cloud;

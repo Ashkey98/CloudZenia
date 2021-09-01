@@ -22,7 +22,7 @@ function House(props) {
   // const { actions } = useAnimations(animations, group)
   return (
     <group ref={group} {...props} dispose={null}>
-      <group scale={3.03}>
+      <group scale={3} rotation={[0,330.6,0]}>
         <mesh geometry={nodes.Cube002_1.geometry} material={nodes.Cube002_1.material} />
         <mesh geometry={nodes.Cube002_2.geometry} material={nodes.Cube002_2.material} />
         <mesh geometry={nodes.Cube002_3.geometry} material={materials['Material.002']} />
@@ -36,11 +36,11 @@ function House(props) {
       <mesh
         geometry={nodes.Text.geometry}
         material={materials['Material.001']}
-        position={[0.05, 4.39, -4.98]}
-        rotation={[5, 5, 5]}
+        position={[5, 3, 120]}
+        rotation={[-5, 5, 5]}
         scale={1.33}
       />
-      <mesh geometry={nodes.Cube.geometry} material={materials['Material.009']} position={[-2.25, 4.72, -4.83]} rotation={[5, 5, 5]} />
+      <mesh geometry={nodes.Cube.geometry} material={materials['Material.009']} position={[2, 4.72, 4]} rotation={[5, 5, 5]} />
     </group>
   )
 }
@@ -65,7 +65,7 @@ export const CameraControls = () => {
       args={[camera, domElement]}
       autoRotate={false}
       autoRotateSpeed={10}
-      enableZoom={true}
+      enableZoom={false}
       minAzimuthAngle={-Math.PI / 4}
       minPolarAngle={0}
     />

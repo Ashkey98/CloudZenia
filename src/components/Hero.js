@@ -53,11 +53,7 @@ class Hero extends Component {
    
 </div>
 <div style={{position: "relative",left: "990px" ,width:"100%",height:"100%"}}>
-  {/* <div style={{
-    position: 'relative',
-    top: '144px',
-    height: '30vh',
-  }}> */}
+  <div>
 <Canvas  camera={{ position: [10, 6, 10], fov: 80 }} className="cloud" style={{
         position: 'relative',
         width: '70vw',
@@ -65,7 +61,7 @@ class Hero extends Component {
         overflow: 'hidden',
         top: '100px',    
   }}  height="300">
-      <CloudCameraControls />
+      {/* <CloudCameraControls /> */}
 
       <ambientLight intensity={1} />
       <spotLight position={[52, 52, 0]} intensity={10} />
@@ -73,11 +69,13 @@ class Hero extends Component {
       <spotLight position={[10, 10, -5]} intensity={10} />
       <Suspense fallback={CloudLoading}>
         <Cloud />
+        <Cloud scale={0.8} position={[5,0.9,-0.1]} rotation={[0,5-9,0]}/>
+        
       </Suspense>
     </Canvas>
-    {/* </div> */}
+    </div>
     <div>
-<Canvas camera={{ position: [10, 6, 10], fov: 80 }}  style={{
+<Canvas camera={{ position: [10, 4, 10], fov: 80 }}  style={{
       position: 'relative',
       width: '70vw',
       height: '42vh',
@@ -85,7 +83,7 @@ class Hero extends Component {
       overflow: 'hidden',
       bottom: '50px',
     }}>
-      <CameraControls />
+      {/* <CameraControls /> */}
 
       <ambientLight intensity={0.5} />
       <Suspense fallback={<Loading />}>
