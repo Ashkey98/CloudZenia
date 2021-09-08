@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 class AboutUS extends Component {
   render () {
     return(
-      <section id="blog" className="blog">
+      <section id="about" className="blog">
 <div className="container" data-aos="fade-up">
   <div className="section-title">
   <h2>About US</h2>

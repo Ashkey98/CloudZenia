@@ -3,7 +3,8 @@ class Footer extends Component {
   render(){
     return(
       
-      <footer id="footer">
+      <footer id="footer" style={{    marginBottom: "-21px",
+      }}>
 
 <div className="footer-newsletter">
 <div className="container">
