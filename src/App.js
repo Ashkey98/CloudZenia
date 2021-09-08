@@ -16,7 +16,6 @@ import AboutUS from './components/AboutUS';
 function App() {
   return (
     <div>
-    {/* <Header /> */}
     
     <Hero />
     <VideoRenderer />

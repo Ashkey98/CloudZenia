@@ -7,7 +7,7 @@ class VideoRenderer extends Component {
   <div className="wrapper">
 
   <video autoPlay loop muted style={{ width: "100%" , height: "100%" }}>
-    <source src={Sample} type="video/mp4" loop onMouseOver ="this.play()" onMouseOut ="this.pause()" /> 
+    <source src={Sample} type="video/mp4" loop  /> 
   </video>
 </div>
 </section>

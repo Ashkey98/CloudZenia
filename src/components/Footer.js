@@ -74,7 +74,7 @@ class Footer extends Component {
       </div>
       <div className="credits">
 
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      Designed by <a href="https://bootstrapmade.com/">CloudZenia</a>
       </div>
       </div>
       </footer>

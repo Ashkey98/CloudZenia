@@ -7,7 +7,7 @@ class Contact extends Component {
 
  <div className="section-title">
    <h2>Contact</h2>
-   <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+   
  </div>
 
  <div className="row">
@@ -16,7 +16,7 @@ class Contact extends Component {
     
 
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30243.549022174597!2d73.76274740949772!3d18.644078353137537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9c02954e8cb%3A0x525d708de1d526f2!2sAkurdi%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1628220614317!5m2!1sen!2sin"
-         style={{border:0 ,width:"100%" ,height:"100%"}} allowfullscreen="" loading="lazy"></iframe>
+         style={{border:0 ,width:"100%" ,height:"100%"}} allowFullScreen="" loading="lazy"></iframe>
 
    </div>
 

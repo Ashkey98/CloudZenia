@@ -47,10 +47,7 @@ class Hero extends Component {
    right: '30%',
    top: '55px',
  }} >
-   <div className="Take-your" data-aos="fade-up" data-aos-delay="200"><h1 style={{fontSize:"170px"}}>Take Your</h1></div>
-   <div className="buisness" data-aos="fade-up" data-aos-delay="150"><h2 style={{fontSize:"140px", color:"white" , marginLeft: "-482px"}}>Buisness</h2></div>
-   <div className="clouds" data-aos="fade-up" data-aos-delay="100"><h3 style={{fontSize:"56px" ,color:" white", marginLeft: "-466px"}}>To The Clouds</h3></div>
-   
+  <h1 className="h1-mktg color-text-white mb-3 position-relative z-2">Take Your Buiness To The Cloud</h1>
 </div>
 <div style={{position: "relative",left: "990px" ,width:"100%",height:"100%"}}>
   <div>
@@ -61,7 +58,7 @@ class Hero extends Component {
         overflow: 'hidden',
         top: '100px',    
   }}  height="300">
-      {/* <CloudCameraControls /> */}
+      <CloudCameraControls />
 
       <ambientLight intensity={1} />
       <spotLight position={[52, 52, 0]} intensity={10} />
@@ -83,7 +80,7 @@ class Hero extends Component {
       overflow: 'hidden',
       bottom: '50px',
     }}>
-      {/* <CameraControls /> */}
+      <CameraControls />
 
       <ambientLight intensity={0.5} />
       <Suspense fallback={<Loading />}>

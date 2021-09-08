@@ -365,7 +365,7 @@ h6 {
   width: 100%;
   height: 105vh;
   margin-top: -62px;
-  background: #37517e;
+  background: linear-gradient(120deg, #37517e, #bd24b8);
   display: flex;
 }
 
@@ -374,9 +374,9 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 10.5em;
-  font-weight: 600;
+  margin: -53px 308px 28px 0;
+  font-size: 12.5em;
+  font-weight: 500;
   line-height: 188px;
   color: #fff;
   float: left;
@@ -1657,7 +1657,8 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: linear-gradient(120deg, #37517e, #bd24b8);
+  margin-top: 100px;
 }
 
 #footer .footer-newsletter {
@@ -1810,7 +1811,7 @@ section {
 
 #footer .footer-bottom {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 52px;
   color: #fff;
 }
 
