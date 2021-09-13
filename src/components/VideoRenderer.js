@@ -6,7 +6,7 @@ class VideoRenderer extends Component {
       <section className="video-section">
   <div className="wrapper">
 
-  <video autoPlay loop  style={{ width: "100%" , height: "100%" }}>
+  <video controls autoPlay loop  style={{ width: "100%" , height: "100%" }}>
     <source src={Sample} type="video/mp4" loop  /> 
   </video>
 </div>
