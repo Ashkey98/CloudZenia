@@ -1,13 +1,5 @@
-/**
-* Template Name: Arsha - v4.3.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: 'Open Sans', sans-serif;
   color: #444444;
@@ -375,15 +367,24 @@ h6 {
 
 #hero h1 {
   margin: -53px 308px 28px 0;
-  font-size: 12.5em;
+  font-size: 7.5em;
   font-weight: 500;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Permanent Marker';
   line-height: 188px;
   color: #fff;
   float: left;
   margin-left: -47%;
   padding-bottom: 16px;
 }
+
+#hero span {
+	background: linear-gradient(to right, #058ad6 0%, #62b4f7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
 .zenia-logo {
   margin-top: 118px;
 }

@@ -11,16 +11,22 @@ class Hero extends Component {
   render(){
     return(
       
-<section id="hero" className="d-flex align-items-center">
+<section style={{ background: 'linear-gradient(120deg, #42a4f5, #e8f5ff)'}} id="hero" className="d-flex align-items-center">
 
-<div className="container" style={{    marginTop:" 141px"
+<div className="container" style={{    marginTop:"34px"
 }} >
 
 <div className="container d-flex align-items-center">
 
 
-<div className="zenia-logo"><a href="index.html"><img src="assets/img/logo/cloudzenia.png" style={{  width: "141px"
-}} alt=""/> </a></div> 
+<div className="zenia-logo" 
+    style={{ position: "relative",
+    right: "165px"}} >
+  <a href="index.html"><img src="assets/img/logo/cloudzenia.png" 
+      style={{  width: "141px"
+    }} alt=""/> 
+  </a>
+</div> 
 
 <nav id="navbar" className="navbar" style={{display: "flex",
     width : "100%" ,
@@ -47,7 +53,7 @@ class Hero extends Component {
    right: '30%',
    top: '55px',
  }} >
-  <h1 className="h1-mktg color-text-white mb-3 position-relative z-2">Take Your Buiness To The Cloud</h1>
+  <h1 className="h1-mktg color-text-white mb-3 position-relative z-2">TAKE YOUR <span style={{fontSize:"8rem"}} >BUSINESS</span> <br/>TO THE <span style={{fontSize:"8rem"}} >CLOUDS</span></h1>
 </div>
 <div style={{position: "relative",left: "990px" ,width:"100%",height:"100%"}}>
   <div>
