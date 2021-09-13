@@ -379,11 +379,10 @@ h6 {
 }
 
 #hero span {
-	background: linear-gradient(to right, #058ad6 0%, #62b4f7 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #058ad6 0%, #62b4f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 .zenia-logo {
   margin-top: 118px;
@@ -856,6 +855,7 @@ section {
 
 .services .icon-box .icon {
   margin-bottom: 10px;
+  color: #47b2e4;
 }
 
 .services .icon-box .icon i {
