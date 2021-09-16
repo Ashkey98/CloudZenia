@@ -1,11 +1,11 @@
 import React, {Component,Suspense} from 'react';
-import { Canvas } from '@react-three/fiber'
-import House from './House';
-import { Loading, CameraControls } from './House';
+// import { Canvas } from '@react-three/fiber'
+// import House from './House';
+// import { Loading, CameraControls } from './House';
 import VideoRenderer from './VideoRenderer';
 
-import Cloud  from './Cloud';
-import { CloudLoading, CloudCameraControls } from './Cloud'
+// import Cloud  from './Cloud';
+// import { CloudLoading, CloudCameraControls } from './Cloud'
 
 
 
