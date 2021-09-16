@@ -2,6 +2,8 @@ import React, {Component,Suspense} from 'react';
 import { Canvas } from '@react-three/fiber'
 import House from './House';
 import { Loading, CameraControls } from './House';
+import VideoRenderer from './VideoRenderer';
+
 import Cloud  from './Cloud';
 import { CloudLoading, CloudCameraControls } from './Cloud'
 
@@ -16,7 +18,7 @@ class Hero extends Component {
 <div className="container" style={{    marginTop:"34px"
 }} >
 
-<div className="container d-flex align-items-center">
+<div className="container d-flex align-items-center" style={{ marginBottom:' 16%',marginLeft: '7%'}}>
 
 
 <div className="zenia-logo" 
@@ -53,9 +55,9 @@ class Hero extends Component {
    right: '30%',
    top: '55px',
  }} >
-  <h1 className="h1-mktg color-text-white mb-3 position-relative z-2">TAKE YOUR <span style={{fontSize:"8rem"}} >BUSINESS</span> <br/>TO THE <span style={{fontSize:"8rem"}} >CLOUDS</span></h1>
+  <h1 className="h1-mktg color-text-white mb-3 position-relative z-2">TAKE YOUR <span style={{fontSize:"7rem"}} >BUSINESS</span> <br/>TO THE <span style={{fontSize:"8rem"}} >CLOUDS</span></h1>
 </div>
-<div style={{position: "relative",left: "990px" ,width:"100%",height:"100%"}}>
+{/* <div style={{position: "relative",left: "990px" ,width:"100%",height:"100%"}}>
   <div>
 <Canvas  camera={{ position: [10, 6, 10], fov: 80 }} className="cloud" style={{
         position: 'relative',
@@ -95,7 +97,16 @@ class Hero extends Component {
     </Canvas>
     </div>
    
+    </div> */}
+    <div style={{position: 'absolute',
+    width: '32%',
+    height: '60%',
+    left: '65%',
+    marginTop: '7%'}}>
+    <VideoRenderer />
+
     </div>
+
 </div>
 </div>
 </div>

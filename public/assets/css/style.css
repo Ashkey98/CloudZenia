@@ -136,7 +136,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   color: #fff;
   white-space: nowrap;
@@ -366,15 +366,15 @@ h6 {
 }
 
 #hero h1 {
-  margin: -53px 308px 28px 0;
-  font-size: 7.5em;
+  margin: -89px 16px 79px 14px;
+  font-size: 5.5em;;
   font-weight: 500;
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Permanent Marker';
-  line-height: 188px;
+  line-height: 136px;
   color: #fff;
   float: left;
-  margin-left: -47%;
+  margin-left: 20%;
   padding-bottom: 16px;
 }
 

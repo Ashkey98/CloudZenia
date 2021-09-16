@@ -1,6 +1,5 @@
 import React  from 'react';
 import Hero from './components/Hero';
-import VideoRenderer from './components/VideoRenderer';
 import CloudLogos from './components/CloudLogos';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
@@ -18,7 +17,6 @@ function App() {
     <div>
     
     <Hero />
-    <VideoRenderer />
     <CloudLogos />
     <AboutUS />
     <Portfolio />
